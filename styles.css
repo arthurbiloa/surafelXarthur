@@ -1,0 +1,122 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+}
+
+body{
+    /*font-family: 'Poppins', sans-serif;*/
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    margin: 0;
+    background-color: black;
+    font-weight: 600;
+    background-image: url(img/1.jpg);
+    
+}
+
+.back{
+    background-color: #333382cf;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    
+    margin-top: 4em;
+}
+
+.head{
+    margin-bottom: 2rem;
+}
+
+#title, p{
+    /* margin-top: 0;
+    margin-bottom: 0.5rem; */
+    margin: 0 2em;
+}
+
+#title{
+    font-weight: 400;
+    font-size: 2.1em;
+    text-align: center;
+}
+
+.head p{
+    font-style: italic;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#survey-form{
+    background-color: #252544b9;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.5);
+    padding: 4em;
+}
+
+.btn{
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #37af65;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+label{
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 1.25em;
+    margin-top: 1em;
+    resize: vertical;
+    min-height: 120px;
+    padding: 0.8em;
+}
+
+.input-text, select{
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.25em;
+    border: none;
+    background-color: white;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+/* .label-text{
+    margin-bottom: 0.5em;
+} */
+
+.group{
+    margin-top: 2em; 
+}
+
+::placeholder{
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+
+@media (min-width: 480px){form {
+        padding: 2.5rem;
+    }
+}
+
+.input-check, .input-radio{
+    display: inline-block;
+    margin-right: 0.2rem;
+    min-height: 1rem;
+    min-width: 1rem;
+    border: none;
+}
