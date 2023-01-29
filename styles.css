@@ -13,7 +13,7 @@ body{
     background-color: black;
     font-weight: 600;
     background-image: url(img/1.jpg);
-    
+    background-size: cover;
 }
 
 .back{
@@ -82,6 +82,7 @@ textarea{
     resize: vertical;
     min-height: 120px;
     padding: 0.8em;
+    font-size: 0.8em;
 }
 
 .input-text, select{
@@ -94,9 +95,10 @@ textarea{
     margin-bottom: 2em;
 }
 
-/* .label-text{
-    margin-bottom: 0.5em;
-} */
+
+.checkDiv{
+    margin-top: 0.5rem;
+}
 
 .group{
     margin-top: 2em; 
@@ -105,6 +107,7 @@ textarea{
 ::placeholder{
     padding: 1em;
     font-size: 1.1em;
+    font-weight: 550;
 }
 
 
